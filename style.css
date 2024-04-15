@@ -1,0 +1,77 @@
+html {
+height: 100%;
+width: 100%;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight: bold;
+  color: rgb(0, 80, 0);
+  text-align: center;
+}
+
+#banner {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    object-position: 80% 70%;
+}
+
+h2{
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: normal;
+  color: rgb(0, 80, 0);
+  text-align: center;
+}
+
+.bodytext {
+  font-family: Roboto;
+  font-size: 25px;
+}
+
+#container {
+  max-width: 70%;
+  margin: 0 auto 0 auto;
+}
+
+.herdbutton {
+  color: rgb(255,255,255);
+  background-color: rgb(0, 150, 0);
+  border: none;
+  border-radius: 10px;
+  padding: 15px 32px;
+  font-size: 24px;
+  box-shadow: 0 9px #999;
+}
+
+.herdbutton:hover {
+  background-color: rgb(0,200,0)
+}
+
+.herdbutton:active {
+  background-color: rgb(0,200,0);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.contactbutton {
+  color: rgb(255,255,255);
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  padding: 15px 32px;
+  font-size: 24px;
+  box-shadow: 0 9px #999;
+}
+
+.contactbutton:hover {
+  background-color: rgb(50,50,50)
+}
+
+.contactbutton:active {
+  background-color: rgb(50,50,50);
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
